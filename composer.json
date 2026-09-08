@@ -1,0 +1,27 @@
+{
+    "name": "volkero/moebius-loop",
+    "description": "Perturbationsschicht ueber einem Agent-Loop: variiert Parameter je Durchgang und behaelt nur, was jede Variante ueberlebt.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-strict-rules": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moebius\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moebius\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
